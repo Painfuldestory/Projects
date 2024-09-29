@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn all about Sonic the Hedgehog, the famous video game character from SEGA, including his origins, abilities, and game series.">
+    
+    <!-- Title of the page -->
+    <title>Sonic the Hedgehog - The Fastest Video Game Character</title>
+    
+    <!-- Link to external stylesheet in the 'css' folder -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Wrapper around content to center it -->
+    <div class="wrapper">
+
+        <!-- Header Section -->
+        <header>
+            <h1>Sonic the Hedgehog</h1>
+
+            <!-- In-page navigation -->
+            <nav>
+                <ul>
+                    <li><a href="#origins">Origins</a></li>
+                    <li><a href="#characteristics">Characteristics</a></li>
+                    <li><a href="#game-series">Game Series</a></li>
+                    <li><a href="#legacy">Legacy</a></li>
+                    <li><a href="#feedback">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content Section -->
+        <main>
+            <!-- Section 1: Origins -->
+            <section id="origins">
+                <h2>Origins</h2>
+                <p>Sonic the Hedgehog is a video game character and the protagonist of the Sonic the Hedgehog series, developed by Sega. He was introduced in 1991, and since then, has become an iconic mascot for Sega.</p>
+            </section>
+
+            <!-- Section 2: Characteristics -->
+            <section id="characteristics">
+                <h2>Characteristics</h2>
+                <h3>Abilities</h3>
+                <p>Sonic is known for his <strong>super speed</strong> and his ability to curl into a ball to attack enemies. His signature move is the 'Spin Attack'.</p>
+                <ul>
+                    <li>Super Speed</li>
+                    <li>Spin Attack</li>
+                    <li>Incredible Agility</li>
+                </ul>
+
+                <h3>Personality</h3>
+                <p>Sonic is often portrayed as a <em>brave</em> and confident character who values freedom and independence. He has a laid-back attitude but is always ready to protect his friends from danger.</p>
+                
+                <h3>Relationships</h3>
+                <p>Sonic has many allies and enemies, including his best friend Tails and arch-nemesis Dr. Robotnik (also known as Eggman).</p>
+            </section>
+
+            <!-- Section 3: Game Series -->
+            <section id="game-series">
+                <h2>Game Series</h2>
+                <p>The Sonic the Hedgehog series includes numerous titles across various platforms. Some of the most popular entries include:</p>
+                <ul>
+                    <li>Sonic the Hedgehog (1991)</li>
+                    <li>Sonic Adventure (1998)</li>
+                    <li>Sonic Generations (2011)</li>
+                </ul>
+            </section>
+
+            <!-- Section 4: Legacy -->
+            <section id="legacy">
+                <h2>Legacy</h2>
+                <p>Sonic has had a significant cultural impact, with various spin-offs including TV shows, comics, and merchandise. His influence on the video game industry is undeniable, and he continues to be a beloved character worldwide.</p>
+
+                <!-- External link to Wikipedia -->
+                <p>For more detailed information, visit the <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog" target="_blank">Sonic the Hedgehog Wikipedia page</a>.</p>
+            </section>
+
+            <!-- Image -->
+            <section id="image">
+                <h2>Image of Sonic</h2>
+                <img src="images/sonic.png" alt="Image of Sonic the Hedgehog">
+            </section>
+            
+            <!-- New Feedback Form Section -->
+            <section id="feedback">
+                <h2>Share Your Thoughts</h2>
+                <form action="/submit_feedback" method="post">
+                    <!-- Name Input -->
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <!-- Email Input -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <!-- Radio Button for Favorite Game -->
+                    <p>What’s your favorite Sonic game?</p>
+                    <label>
+                        <input type="radio" name="favorite_game" value="Sonic the Hedgehog 1" required>
+                        Sonic the Hedgehog (1991)
+                    </label>
+                    <label>
+                        <input type="radio" name="favorite_game" value="Sonic Adventure">
+                        Sonic Adventure (1998)
+                    </label>
+                    <label>
+                        <input type="radio" name="favorite_game" value="Sonic Generations">
+                        Sonic Generations (2011)
+                    </label>
+
+                    <!-- Text Area for Additional Comments -->
+                    <label for="comments">Any additional thoughts:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Share your feedback..."></textarea>
+
+                    <!-- Submit Button -->
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+    </div> <!-- End of wrapper -->
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sonic Fan Page</p>
+    </footer>
+
+</body>
+
+</html>
